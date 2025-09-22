@@ -1,0 +1,1 @@
+import{x as c,j as t}from"./index-C9sI7Gna.js";import{u}from"./use-clipboard-CSJlCCmu.js";const a={timeout:1e3};function m(e){const{children:r,timeout:s,value:n,...p}=c("CopyButton",a,e),o=u({timeout:s}),i=()=>o.copy(n);return t.jsx(t.Fragment,{children:r({copy:i,copied:o.copied,...p})})}m.displayName="@mantine/core/CopyButton";export{m as C};

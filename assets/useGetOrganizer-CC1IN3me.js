@@ -1,1 +1,0 @@
-import{o as t,X as a}from"./index-CrYLJ35E.js";const n="getOrganizer",s=e=>({queryKey:[n,e],queryFn:async()=>{const{data:r}=await a.findByID(e);return r},staleTime:0,gcTime:0}),u=e=>t(s(e));export{n as G,u};

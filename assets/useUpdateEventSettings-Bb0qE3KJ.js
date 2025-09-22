@@ -1,0 +1,1 @@
+import{q as s}from"./index-C9sI7Gna.js";import{u as i}from"./useMutation-CYQcb89n.js";import{e as r,G as a}from"./useGetEventSettings-C9oxHj6S.js";const p=()=>{const n=s();return i({mutationFn:({eventSettings:t,eventId:e})=>r.partialUpdate(e,t),onSuccess:(t,e)=>{n.invalidateQueries({queryKey:[a,e.eventId]})}})};export{p as u};

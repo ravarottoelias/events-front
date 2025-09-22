@@ -1,0 +1,1 @@
+import{o as n}from"./index-C9sI7Gna.js";import{b as s}from"./attendee.client-C2vBAL82.js";const u="getAttendeePublic",i=(e,t)=>n({queryKey:[u,e,t],queryFn:async()=>{const{data:r}=await s.findByShortId(e,t);return r},refetchOnWindowFocus:!1,retryOnMount:!1,staleTime:0});export{i as u};
