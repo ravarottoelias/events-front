@@ -1,0 +1,1 @@
+import{an as s,o as n}from"./index-CrYLJ35E.js";const a={partialUpdate:async(t,e)=>(await s.patch("events/"+t+"/settings",e)).data,all:async t=>(await s.get("events/"+t+"/settings")).data},r="getEventSettings",c=t=>n({queryKey:[r,t],queryFn:async()=>(await a.all(t)).data});export{r as G,a as e,c as u};

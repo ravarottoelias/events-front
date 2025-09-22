@@ -1,0 +1,1 @@
+import{j as r}from"./index-CrYLJ35E.js";import{P as o}from"./Popover-DAx2K-A9.js";const p=({children:s,title:e,...i})=>r.jsxs(o,{...i,children:[r.jsx(o.Target,{children:r.jsx("div",{style:{cursor:"pointer",display:"inline-flex"},children:s})}),r.jsx(o.Dropdown,{children:e})]});export{p as P};

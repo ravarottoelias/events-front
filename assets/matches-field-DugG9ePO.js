@@ -1,0 +1,1 @@
+import{m as e}from"./matches-DCiZ_LSR.js";function o(r){return e(/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,r)}function u(r,i){const n=i||!0;return(a,t)=>!t||!(r in t)?n:a===t[r]?null:n}export{o as i,u as m};

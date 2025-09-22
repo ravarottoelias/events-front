@@ -1,0 +1,1 @@
+import{j as r}from"./index-CrYLJ35E.js";import{S as e}from"./Skeleton-CPujZ-UY.js";const i=({isVisible:t,numRows:s=15})=>t?r.jsxs(r.Fragment,{children:[r.jsx(e,{height:45,mb:"md",radius:"10px"}),[...Array(s)].map((n,m)=>r.jsx(e,{mb:20,height:20},m))]}):null;export{i as T};
