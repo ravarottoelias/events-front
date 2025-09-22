@@ -13,14 +13,13 @@ jobs:
     permissions:
       contents: write
     env:
-      VITE_NODE_ENV: ${{ vars.VITE_NODE_ENV }}
       VITE_API_URL_CLIENT: ${{ vars.VITE_API_URL_CLIENT }}
       VITE_API_URL_SERVER: ${{ vars.VITE_API_URL_SERVER }}
       VITE_FRONTEND_URL: ${{ vars.VITE_FRONTEND_URL }}
       VITE_STRIPE_PUBLISHABLE_KEY: ${{ vars.VITE_STRIPE_PUBLISHABLE_KEY }}
     steps:
       - run: |
-          echo "Desplegando app en ambiente: ${{ vars.VITE_NODE_ENV }}"
+          echo "Desplegando app en ambiente: dev}"
       - name: git-checkout
         uses: actions/checkout@v3
 
