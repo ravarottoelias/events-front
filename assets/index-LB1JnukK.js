@@ -1,0 +1,1 @@
+import{j as r}from"./index-DgWAxs4d.js";import{P as o}from"./Popover-Dx8d2joo.js";const p=({children:s,title:e,...i})=>r.jsxs(o,{...i,children:[r.jsx(o.Target,{children:r.jsx("div",{style:{cursor:"pointer",display:"inline-flex"},children:s})}),r.jsx(o.Dropdown,{children:e})]});export{p as P};

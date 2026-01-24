@@ -1,0 +1,1 @@
+import{j as t}from"./index-DgWAxs4d.js";import{u as s}from"./useWindowWidth-CbGA5lga.js";const r={md:768},m=({children:o})=>s()>r.md?t.jsx(t.Fragment,{children:o}):null,d=({children:o})=>s()<=r.md?t.jsx(t.Fragment,{children:o}):null;export{m as S,d as a};

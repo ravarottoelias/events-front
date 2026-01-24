@@ -1,0 +1,1 @@
+import{m as o,j as a,i as s}from"./index-DgWAxs4d.js";import{O as n}from"./index-Dt22uiZ_.js";import{M as t}from"./index-fiBg9Rfm.js";const p=({onClose:e})=>{const r=o();return a.jsx(t,{onClose:e,heading:s._({id:"kpJAeS"}),opened:!0,size:"lg",modalHeader:"branded",children:a.jsx(n,{onSuccess:i=>{e(),r(`/manage/organizer/${i.id}`)}})})};export{p as C};

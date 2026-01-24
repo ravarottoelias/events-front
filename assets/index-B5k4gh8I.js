@@ -1,0 +1,1 @@
+import{j as n}from"./index-DgWAxs4d.js";const d="_card_1fjn1_1",_="_lightGray_1fjn1_7",a={card:d,lightGray:_,default:"_default_1fjn1_11"},o=({children:t,className:r="",style:s={},variant:c="default",ref:l=null})=>n.jsx("div",{className:`${r} ${a.card} ${a[c]}`,style:s,ref:l,children:t});export{o as C};

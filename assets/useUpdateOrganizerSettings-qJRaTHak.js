@@ -1,0 +1,1 @@
+import{q as a,ag as i}from"./index-DgWAxs4d.js";import{u as n}from"./useMutation-IRjST6z8.js";import{G as s}from"./useGetOrganizerSettings-BUDTU6hQ.js";const p=()=>{const r=a();return n({mutationFn:({organizerSettings:t,organizerId:e})=>i.partialUpdate(e,t),onSuccess:(t,e)=>{r.invalidateQueries({queryKey:[s,e.organizerId]})}})};export{p as u};

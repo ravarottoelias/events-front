@@ -1,0 +1,1 @@
+import{j as r}from"./index-DgWAxs4d.js";import{S as e}from"./Skeleton-6jS61cWp.js";const i=({isVisible:t,numRows:s=15})=>t?r.jsxs(r.Fragment,{children:[r.jsx(e,{height:45,mb:"md",radius:"10px"}),[...Array(s)].map((n,m)=>r.jsx(e,{mb:20,height:20},m))]}):null;export{i as T};
